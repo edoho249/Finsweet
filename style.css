@@ -1,0 +1,142 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+
+
+
+
+header{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 14px 10px;
+}
+
+header .logo{
+    font-size: 20px;
+}
+
+nav{
+    display: flex;
+    align-items:center;
+    column-gap: 40px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+    border-right: 1px solid gray;
+    padding: 5px 20px 5px 0px;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+
+nav .right-contact{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+
+
+
+
+.right-contact-text{
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+main{
+    height: 91vh;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+ 
+
+}
+
+main .container{
+    height: 80%;
+    width: 100%;
+    display: flex;
+}
+
+
+
+main .container .left-text{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main .container .right-img{
+    width: 50%;
+    height: 100%;
+    background-image: url('Image.png');
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+main .container .right-img .Service{
+    position: absolute;
+    left: -15%;
+    top: 0;
+}
+
+main .container .right-img .Rating{
+    position: absolute;
+    bottom: 0;
+    right: -15%;
+}
+
+
+
+
+main button{
+    padding: 10px 40px;
+    border-radius: 10px;
+    background-color: orangered;
+    bottom: 1px solid lightblue;
+    box-shadow: 1px 1px 5px 0px lightcyan;  
+    align-content: center;
+    align-items: center;
+    color:white;
+}    
+
+
+.open{
+font-size: 20px;
+}
+
+
+.time{
+    font-size: 30px;
+
+}
+
+
+.content{
+    width: 80%;
+    height: 40%;
+    font-size: 25px;
+}
+
+
+
